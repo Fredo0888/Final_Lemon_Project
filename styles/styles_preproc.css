@@ -95,15 +95,186 @@ header .container {
     font-weight: 400;
     font-size: 32px;
     line-height: 38px; }
-  .latest_offers .phone {
-    margin-top: 144px; }
-    .latest_offers .phone span {
-      margin-top: 60px;
-      margin-left: 100px; }
-  .latest_offers .ipad {
-    margin-top: 114px; }
-    .latest_offers .ipad span {
-      margin-left: 70px; }
-    .latest_offers .ipad p {
+
+.most_selled h3 {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000; }
+.most_selled p {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000; }
+.most_selled h4 {
+  margin-top: 37px;
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000; }
+.most_selled .items_most p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B; }
+.most_selled .items_most h5 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000; }
+.most_selled .items_most .h5_fonts {
+  margin-top: 25px; }
+
+.see_the_best {
+  padding-top: 74px;
+  margin-bottom: 100px; }
+  .see_the_best h4 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000; }
+  .see_the_best p {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000; }
+  .see_the_best .iwatch_3 {
+    background-color: #F8F9FA;
+    border-radius: 16px;
+    max-width: 413px; }
+    .see_the_best .iwatch_3 h5 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
       font-size: 28px;
-      text-align: center; }
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 30px; }
+    .see_the_best .iwatch_3 a {
+      margin-top: 30px; }
+    .see_the_best .iwatch_3 button {
+      margin-left: 106px;
+      font: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      padding: 14px 53px;
+      background-color: transparent;
+      margin-bottom: 30px; }
+  .see_the_best .devices {
+    background-color: #F8F9FA;
+    border-radius: 16px; }
+    .see_the_best .devices h5 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 30px; }
+    .see_the_best .devices a {
+      margin-top: 30px; }
+    .see_the_best .devices button {
+      margin-left: 106px;
+      font: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      padding: 14px 53px;
+      background-color: transparent;
+      margin-bottom: 30px; }
+  .see_the_best .macbook_iphone {
+    background-color: #F8F9FA;
+    border-radius: 16px; }
+    .see_the_best .macbook_iphone h5 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 30px; }
+    .see_the_best .macbook_iphone a {
+      margin-top: 30px; }
+    .see_the_best .macbook_iphone button {
+      margin-left: 106px;
+      font: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      padding: 14px 53px;
+      background-color: transparent;
+      margin-bottom: 30px; }
+
+.ideas {
+  margin-bottom: 100px; }
+  .ideas h4 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000; }
+  .ideas p {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 52px;
+    color: #000000; }
+  .ideas ul li {
+    list-style: none;
+    margin-bottom: 28px; }
+    .ideas ul li p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: #000000; }
+  .ideas h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000; }
+    .ideas h5:before {
+      background-image: url("../images/goup.svg");
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 30px;
+      height: 28px; }

@@ -84,11 +84,12 @@ header{
     }
   }
 }
-.latest_offers{
+.latest_offers {
   padding-top: 75px;
   padding-bottom: 125px;
-  h2{
-    font-family:$second_font;
+
+  h2 {
+    font-family: $second_font;
     font-style: normal;
     font-weight: 400;
     font-size: 42px;
@@ -97,8 +98,9 @@ header{
     color: #000000;
     margin-bottom: 9px;
   }
-  p{
-    font-family:$second_font;
+
+  p {
+    font-family: $second_font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -106,6 +108,7 @@ header{
     text-align: center;
     color: #000000;
   }
+
   .decritpion {
     span {
       font-family: $main_font;
@@ -115,32 +118,231 @@ header{
       line-height: 19px;
       color: #000000;
     }
-    p{
-      font-family:$second_font;
+
+    p {
+      font-family: $second_font;
       font-style: normal;
       font-weight: 400;
       font-size: 32px;
       line-height: 38px;
     }
   }
-  .phone{
-    margin-top: 144px;
-  span{
-    margin-top: 60px;
-    margin-left: 100px;
-
+}
+.most_selled{
+  h3{
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000;
   }
+  p{
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
   }
-  .ipad{
-    margin-top: 114px;
-    span{
-      margin-left: 70px;
-    }
+  h4{
+    margin-top: 37px;
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .items_most{
     p{
-      font-size: 28px;
-      text-align: center;
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #4B4B4B;
     }
+    h5{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+    }
+    .h5_fonts{
+      margin-top: 25px;
+    }
+  }
+}
+.see_the_best{
+  padding-top: 74px;
+  margin-bottom: 100px;
+  h4{
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+  }
+  p{
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+  }
+  .iwatch_3{
+    background-color: #F8F9FA;
+    border-radius: 16px;
+    max-width: 413px;
+    h5{
+      font-family: $second_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+    a{
+      margin-top: 30px;
+    }
+    button{
+      margin-left: 106px;
+      font:$main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      padding: 14px 53px;
+      background-color: transparent;
+      margin-bottom: 30px;
+    }
+  }
+  .devices{
+    background-color: #F8F9FA;
+    border-radius: 16px;
+    h5{
+      font-family: $second_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+    a{
+      margin-top: 30px;
+    }
+    button{
+      margin-left: 106px;
+      font:$main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      padding: 14px 53px;
+      background-color: transparent;
+      margin-bottom: 30px;
+    }
+  }
+  .macbook_iphone{
+    background-color: #F8F9FA;
+    border-radius: 16px;
+    h5{
+      font-family: $second_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 35px;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+    a{
+      margin-top: 30px;
+    }
+    button{
+      margin-left: 106px;
+      font:$main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      padding: 14px 53px;
+      background-color: transparent;
+      margin-bottom: 30px;
+    }
+  }
+}
+.ideas {
+  margin-bottom: 100px;
 
+  h4 {
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000;
   }
 
+  p {
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 52px;
+    color: #000000;
+  }
+
+  ul {
+    li {
+      list-style: none;
+      margin-bottom: 28px;
+
+      p {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+      }
+    }
+  }
+  h5{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+    &:before{
+      background-image: url("../images/goup.svg");
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 30px;
+      height: 28px;
+    }
+  }
 }
