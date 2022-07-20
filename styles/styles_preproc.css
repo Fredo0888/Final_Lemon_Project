@@ -1,6 +1,8 @@
 header .container {
   max-width: 1440px;
   margin: auto; }
+  header .container nav .navbar-toggler-icon {
+    background-image: url("../images/header_icon_1.svg"); }
   header .container nav ul {
     margin: 0 33px; }
     header .container nav ul li a {
@@ -263,7 +265,7 @@ header .container {
       font-size: 24px;
       line-height: 30px;
       color: #000000; }
-  .ideas h5 {
+  .ideas h5 a {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -271,10 +273,77 @@ header .container {
     line-height: 29px;
     text-transform: capitalize;
     color: #000000; }
-    .ideas h5:before {
+    .ideas h5 a:after {
+      content: "";
       background-image: url("../images/goup.svg");
       display: inline-block;
       background-repeat: no-repeat;
       background-size: contain;
       width: 30px;
-      height: 28px; }
+      height: 28px;
+      position: absolute;
+      top: 2px; }
+
+.looking_for h3 {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000; }
+.looking_for .input-group {
+  max-width: 650px;
+  margin: auto; }
+  .looking_for .input-group button {
+    background-color: #F8F9FA;
+    border-radius: 100px;
+    border-right: none;
+    position: relative;
+    z-index: 5; }
+  .looking_for .input-group input {
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    background-color: #F8F9FA; }
+.looking_for a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  padding: 12px;
+  text-align: center; }
+
+.never_miss {
+  margin-top: 100px; }
+  .never_miss .never_miss_items {
+    background-color: #DCE5E2;
+    border-radius: 16px; }
+    .never_miss .never_miss_items h4 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 52px;
+      text-align: center;
+      color: #000000;
+      margin-top: 47px; }
+    .never_miss .never_miss_items p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #000000; }
+    .never_miss .never_miss_items .input-group {
+      max-width: 400px;
+      margin: auto;
+      border: 1px solid #000000;
+      border-radius: 54px 0px 0px 54px; }
+      .never_miss .never_miss_items .input-group::placeholder {
+        border: 1px solid #000000;
+        border-radius: 54px 0px 0px 54px; }
