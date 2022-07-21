@@ -1,3 +1,7 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+
+
 $main_font: 'Inter', sans-serif;
 $second_font: 'Readex Pro', sans-serif;
 header{
@@ -62,31 +66,57 @@ header{
       padding: 14px 53px;
       background-color: transparent;
     }
-    ol{
-      li{
-        width: 194px;
-        background-color: black;
-        margin-right: 34px;
-      }
+    .owl-stage {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .carousel-control-prev{
-      border: none;
+      .owl-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        bottom: 250px;
+
+        .owl-prev {
+          content: "";
+          background-image: url("../images/owl-prev.svg");
+          display: inline-block;
+          background-size: contain;
+          width: 14px;
+          height: 26px;
+          background-repeat: no-repeat;
+          margin-left: -10px;
+        }
+
+        .owl-next {
+          content: "";
+          background-image: url("../images/owl-next.svg");
+          display: inline-block;
+          background-size: contain;
+          width: 14px;
+          height: 26px;
+          background-repeat: no-repeat;
+        }
+      }
+    .owl-dots{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       position: absolute;
-      left: -200px;
-      .carousel-control-prev-icon{
-      background-image: url("../images/vector_left.svg");
+      bottom: 30px;
+      left: 10%;
+      width: 70%;
+      height: 4px;
+      .owl-dot{
+        width: 20%;
+        color: black;
+        height: 4px;
       }
     }
-    .carousel-control-next{
-      border: none;
-      position: absolute;
-      right: -96px;
-      .carousel-control-next-icon{
-        background-image: url("../images/vector_right.svg");
-      }
     }
+
   }
-}
 .latest_offers {
   padding-top: 75px;
   padding-bottom: 125px;
@@ -356,6 +386,10 @@ header{
     }
 }
 .looking_for{
+  .container{
+    max-width: 650px;
+    margin: auto;
+  }
   h3{
     font-family: $second_font;
     font-style: normal;
@@ -367,20 +401,26 @@ header{
   .input-group {
     max-width: 650px;
     margin: auto;
+    padding: 20px;
     button{
       background-color: #F8F9FA;;
       border-radius: 100px;
       border-right: none;
       position: relative;
-      z-index: 5;
+      left: 30px;
+      z-index: 2;
+      padding: 20px;
     }
     input{
       border: 1px solid #C5C5C5;
       border-radius: 100px;
       background-color: #F8F9FA;;
+      margin-left: 30px;
+      padding: 40px;
     }
   }
   a{
+    margin-right: 5px;
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
@@ -392,7 +432,9 @@ header{
     border-radius: 200px;
     padding: 12px;
     text-align: center;
+
   }
+
 }
 .never_miss {
   margin-top: 100px;
@@ -424,15 +466,77 @@ header{
     .input-group{
       max-width: 400px;
       margin: auto;
-      border: 1px solid #000000;
-      border-radius: 54px 0px 0px 54px;
-      &::placeholder{
+      .form-control{
+        box-sizing: border-box;
+        background-color: #DCE5E2;
         border: 1px solid #000000;
-
         border-radius: 54px 0px 0px 54px;
-
+      }
+      button{
+        background-color: #000000;
+        border-radius: 0px 200px 200px 0px;
+        color: #FFFFFF;
+        }
       }
     }
-
   }
-}
+footer{
+  background-color: #F8F9FA;;
+  .container{
+    max-width: 1440px;
+    margin: auto;
+    p{
+      font-family:$main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+
+
+    }
+    ul{
+      }
+      h5{
+        font-family:$second_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 19px;
+      }
+      li{
+        list-style: none;
+        margin-bottom: 14px;
+        a{
+          font-family:$main_font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 22px;
+          color: #000000;
+        }
+      }
+    }
+    .footer_down{
+      margin-top: 150px;
+      h4{
+        font-family:$second_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+      }
+      span{
+        font-family:$main_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-left: 3px;
+      }
+    }
+  }

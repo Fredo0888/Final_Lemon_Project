@@ -1,3 +1,5 @@
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
 header .container {
   max-width: 1440px;
   margin: auto; }
@@ -47,22 +49,46 @@ header .container {
     border-radius: 200px;
     padding: 14px 53px;
     background-color: transparent; }
-  .main_banner .container ol li {
-    width: 194px;
-    background-color: black;
-    margin-right: 34px; }
-  .main_banner .container .carousel-control-prev {
-    border: none;
+  .main_banner .container .owl-stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .main_banner .container .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 250px; }
+    .main_banner .container .owl-nav .owl-prev {
+      content: "";
+      background-image: url("../images/owl-prev.svg");
+      display: inline-block;
+      background-size: contain;
+      width: 14px;
+      height: 26px;
+      background-repeat: no-repeat;
+      margin-left: -10px; }
+    .main_banner .container .owl-nav .owl-next {
+      content: "";
+      background-image: url("../images/owl-next.svg");
+      display: inline-block;
+      background-size: contain;
+      width: 14px;
+      height: 26px;
+      background-repeat: no-repeat; }
+  .main_banner .container .owl-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    left: -200px; }
-    .main_banner .container .carousel-control-prev .carousel-control-prev-icon {
-      background-image: url("../images/vector_left.svg"); }
-  .main_banner .container .carousel-control-next {
-    border: none;
-    position: absolute;
-    right: -96px; }
-    .main_banner .container .carousel-control-next .carousel-control-next-icon {
-      background-image: url("../images/vector_right.svg"); }
+    bottom: 30px;
+    left: 10%;
+    width: 70%;
+    height: 4px; }
+    .main_banner .container .owl-dots .owl-dot {
+      width: 20%;
+      color: black;
+      height: 4px; }
 
 .latest_offers {
   padding-top: 75px;
@@ -284,6 +310,9 @@ header .container {
       position: absolute;
       top: 2px; }
 
+.looking_for .container {
+  max-width: 650px;
+  margin: auto; }
 .looking_for h3 {
   font-family: 'Readex Pro', sans-serif;
   font-style: normal;
@@ -293,18 +322,24 @@ header .container {
   color: #000000; }
 .looking_for .input-group {
   max-width: 650px;
-  margin: auto; }
+  margin: auto;
+  padding: 20px; }
   .looking_for .input-group button {
     background-color: #F8F9FA;
     border-radius: 100px;
     border-right: none;
     position: relative;
-    z-index: 5; }
+    left: 30px;
+    z-index: 2;
+    padding: 20px; }
   .looking_for .input-group input {
     border: 1px solid #C5C5C5;
     border-radius: 100px;
-    background-color: #F8F9FA; }
+    background-color: #F8F9FA;
+    margin-left: 30px;
+    padding: 40px; }
 .looking_for a {
+  margin-right: 5px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -341,9 +376,61 @@ header .container {
       color: #000000; }
     .never_miss .never_miss_items .input-group {
       max-width: 400px;
-      margin: auto;
-      border: 1px solid #000000;
-      border-radius: 54px 0px 0px 54px; }
-      .never_miss .never_miss_items .input-group::placeholder {
+      margin: auto; }
+      .never_miss .never_miss_items .input-group .form-control {
+        box-sizing: border-box;
+        background-color: #DCE5E2;
         border: 1px solid #000000;
         border-radius: 54px 0px 0px 54px; }
+      .never_miss .never_miss_items .input-group button {
+        background-color: #000000;
+        border-radius: 0px 200px 200px 0px;
+        color: #FFFFFF; }
+
+footer {
+  background-color: #F8F9FA; }
+  footer .container {
+    max-width: 1440px;
+    margin: auto; }
+    footer .container p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000; }
+    footer .container h5 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      color: #000000;
+      margin-bottom: 19px; }
+    footer .container li {
+      list-style: none;
+      margin-bottom: 14px; }
+      footer .container li a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        color: #000000; }
+  footer .footer_down {
+    margin-top: 150px; }
+    footer .footer_down h4 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000; }
+    footer .footer_down span {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+      margin-left: 3px; }
