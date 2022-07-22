@@ -15,6 +15,7 @@ header{
     ul{
       margin: 0 33px;
       li{
+        margin: 0 10px;
         a{
           font-family: $main_font;
           font-style: normal;
@@ -23,6 +24,11 @@ header{
           line-height: 17px;
           text-transform: uppercase;
           color: #000000;
+          transition: 0.5s;
+          &:hover{
+            color: red;
+            transform: scale(1.1);
+          }
         }
       }
     }
@@ -70,6 +76,7 @@ header{
       display: flex;
       justify-content: space-between;
       align-items: center;
+
     }
       .owl-nav {
         display: flex;
@@ -77,6 +84,10 @@ header{
         align-items: center;
         position: relative;
         bottom: 250px;
+        @media only screen and (max-width: 429px){
+          display: none;
+
+        }
 
         .owl-prev {
           content: "";
@@ -108,6 +119,10 @@ header{
       left: 10%;
       width: 70%;
       height: 4px;
+      @media only screen and (max-width: 429px){
+        display: none;
+
+      }
       .owl-dot{
         width: 20%;
         color: black;
@@ -159,6 +174,30 @@ header{
       font-size: 32px;
       line-height: 38px;
     }
+    .macbook{
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+    .iwatch{
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+    .phone{
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+    .ipad{
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
   }
 }
 .most_selled{
@@ -188,6 +227,12 @@ header{
     color: #000000;
   }
   .items_most{
+    a{
+    &:hover img{
+      transform: scale(1.2);
+      transition: 1.5s;
+    }
+    }
     p{
       font-family: $main_font;
       font-style: normal;
@@ -234,6 +279,10 @@ header{
     background-color: #F8F9FA;
     border-radius: 16px;
     max-width: 413px;
+    transition: 0.8s;
+    &:hover{
+      transform: scale(1.1);
+    }
     h5{
       font-family: $second_font;
       font-style: normal;
@@ -265,6 +314,10 @@ header{
   .devices{
     background-color: #F8F9FA;
     border-radius: 16px;
+    transition: 0.8s;
+    &:hover{
+      transform: scale(1.1);
+    }
     h5{
       font-family: $second_font;
       font-style: normal;
@@ -296,6 +349,10 @@ header{
   .macbook_iphone{
     background-color: #F8F9FA;
     border-radius: 16px;
+    transition: 0.8s;
+    &:hover{
+      transform: scale(1.1);
+    }
     h5{
       font-family: $second_font;
       font-style: normal;
@@ -492,10 +549,16 @@ footer{
       font-size: 16px;
       line-height: 19px;
       color: #000000;
+      @media only screen and (max-width: 429px){
+        font-size: 12px;
+        text-align: center;
 
-
+      }
+    }
     }
     ul{
+      @media only screen and (max-width: 429px){
+        margin-top: 30px;
       }
       h5{
         font-family:$second_font;
@@ -505,10 +568,17 @@ footer{
         line-height: 28px;
         color: #000000;
         margin-bottom: 19px;
+        @media only screen and (max-width: 429px){
+          font-size: 12px;
+
+        }
       }
       li{
         list-style: none;
         margin-bottom: 14px;
+        @media only screen and (max-width: 429px){
+          margin: 0 15px;
+        }
         a{
           font-family:$main_font;
           font-style: normal;
@@ -516,6 +586,9 @@ footer{
           font-size: 17px;
           line-height: 22px;
           color: #000000;
+          @media only screen and (max-width: 429px){
+            font-size: 12px;
+          }
         }
       }
     }
